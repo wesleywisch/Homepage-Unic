@@ -1,9 +1,16 @@
 
 
+import { Navbar } from "./components/Navbar";
+
+import GlobalStyle from './styles/global';
+
 
 function App() {
   return (
-   <h1>Elixr</h1>
+    <>
+      <Navbar />
+      <GlobalStyle />
+    </>
   );
 }
 
