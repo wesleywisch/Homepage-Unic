@@ -1,10 +1,22 @@
+import { menuData } from '../../data/MenuData';
 
-import { Nav } from './styles';
+import { Nav, Logo, MenuBars, NavMenu, NavMenuLinks, NavBtn, Button } from './styles';
 
 export function Navbar() {
   return (
     <Nav>
-      <h1>Navbar</h1>
+      <Logo to="/">Unic</Logo>
+      <MenuBars />
+      <NavMenu>
+        {menuData.map((item, key) => (
+          <NavMenuLinks to={item.link} key={key}>
+            {item.title}
+          </NavMenuLinks>
+        ))}
+      </NavMenu>
+      <NavBtn>
+        <Button to="/contato" primary>Contate-nos</Button>
+      </NavBtn>
     </Nav>
   );
 }
