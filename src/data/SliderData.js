@@ -1,0 +1,60 @@
+import ImageOne from '../images/house-1.jpg';
+import ImageTwo from '../images/house-2.jpg';
+import ImageThree from '../images/house-3.jpg';
+import ImageFour from '../images/house-4.jpg';
+
+
+export const SliderData = [
+  { title: 'Villa de luxo em Bali, Indonésia', 
+    price: 'R$ 16,800,000',
+    path: '/homes',
+    label: 'Visualizar em Home',
+    image: ImageOne,
+    alt: 'Casa',
+  },
+  { title: 'Casa em San Jose, Costa Rica', 
+    price: 'R$ 10,400,000',
+    path: '/homes',
+    label: 'Visualizar em Home',
+    image: ImageTwo,
+    alt: 'Casa',
+  },
+  { title: 'Casa em Calabasas, Califórnia', 
+    price: 'R$ 23,100,000',
+    path: '/homes',
+    label: 'Visualizar em Home',
+    image: ImageThree,
+    alt: 'Casa',
+  },
+  { title: 'Casa em Houston, Texas', 
+    price: 'R$ 8,300,000',
+    path: '/homes',
+    label: 'Visualizar em Home',
+    image: ImageFour,
+    alt: 'Casa',
+  },
+];
+
+export const SliderDataTwo = [
+  { title: 'Casa em Las Vegas, Nevada', 
+    price: 'R$ 8,800,000',
+    path: '/homes',
+    label: 'Visualizar em Home',
+    image: 'ImageFive',
+    alt: 'Casa',
+  },
+  { title: 'Casa em Houston, Texas', 
+    price: 'R$ 3,500,000',
+    path: '/homes',
+    label: 'Visualizar em Home',
+    image: 'ImageSix',
+    alt: 'Casa',
+  },
+  { title: 'Casa em Alajuela, Costa Rica', 
+    price: 'R$ 5,420,000',
+    path: '/homes',
+    label: 'Visualizar em Home',
+    image: 'ImageSeven',
+    alt: 'Casa',
+  },
+]

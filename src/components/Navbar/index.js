@@ -1,6 +1,8 @@
 import { menuData } from '../../data/MenuData';
 
-import { Nav, Logo, MenuBars, NavMenu, NavMenuLinks, NavBtn, Button } from './styles';
+import { Nav, Logo, MenuBars, NavMenu, NavMenuLinks, NavBtn } from './styles';
+
+import { Button } from '../Button';
 
 export function Navbar() {
   return (
@@ -15,7 +17,7 @@ export function Navbar() {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button to="/contato" primary>Contate-nos</Button>
+        <Button to="/contato" primary='true'>Contate-nos</Button>
       </NavBtn>
     </Nav>
   );
