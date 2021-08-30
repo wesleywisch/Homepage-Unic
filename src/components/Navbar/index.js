@@ -4,11 +4,11 @@ import { Nav, Logo, MenuBars, NavMenu, NavMenuLinks, NavBtn } from './styles';
 
 import { Button } from '../Button';
 
-export function Navbar() {
+export function Navbar({ toggle }) {
   return (
     <Nav>
       <Logo to="/">Unic</Logo>
-      <MenuBars />
+      <MenuBars onClick={toggle} />
       <NavMenu>
         {menuData.map((item, key) => (
           <NavMenuLinks to={item.link} key={key}>
