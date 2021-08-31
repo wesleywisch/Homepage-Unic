@@ -68,7 +68,7 @@ export const HeroContent = styled.div`
   width: calc(100% - 100px);
   color: var(--white);
 
-  h1{
+  h2{
     font-size: clamp(1rem, 8vw, 2rem);
     font-weight: 400;
     text-transform: uppercase;

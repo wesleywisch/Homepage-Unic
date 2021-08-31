@@ -21,7 +21,7 @@ export function InfoSection({
     <Section background={background}>
       <Container padding={padding} align={align}>
         <ColumnLeft reverse={reverse} height={height}>
-          <h1>{heading}</h1>
+          <h3>{heading}</h3>
           <p>{paragraphOne}</p>
           <p>{paragraphTwo}</p>
           <Button primary={primary} border='true' to='/homes'>{buttonLabel}</Button>

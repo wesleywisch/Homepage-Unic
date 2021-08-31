@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   z-index: 9;
   position: fixed;
   width: 100%;
-  background-color: ${({ background }) => ( background ? 'orange' : 'transparent' )}
+  background-color: ${({ background }) => ( background ? 'orange' : 'transparent' )};
 `;
 
 export const NavLink = css`
