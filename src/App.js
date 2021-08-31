@@ -4,6 +4,7 @@ import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 import { Dropdown } from "./components/Dropdown";
 import { InfoSection } from './components/InfoSection';
+import { Footer } from "./components/Footer";
 
 import GlobalStyle from './styles/global';
 
@@ -25,6 +26,7 @@ function App() {
       <InfoSection primary='true' {...InfoData} />
       <InfoSection button='true' background='true' padding='true' align='true' height='true' {...InfoDataTwo} />
       <InfoSection primary='true' {...InfoDataThree} />
+      <Footer />
       <GlobalStyle />
     </>
   );
