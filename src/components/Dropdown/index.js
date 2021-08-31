@@ -1,5 +1,11 @@
-
-import { DropdownContainer, Icon, CloseIcon, DropdownWrapper, DropdownMenu, DropdownLink, BtnWrap } from './styles';
+import { DropdownContainer, 
+  Icon, 
+  CloseIcon, 
+  DropdownWrapper, 
+  DropdownMenu, 
+  DropdownLink, 
+  BtnWrap 
+} from './styles';
 
 import { Button } from '../Button';
 

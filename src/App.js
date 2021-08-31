@@ -8,8 +8,7 @@ import { InfoSection } from './components/InfoSection';
 import GlobalStyle from './styles/global';
 
 import { SliderData } from './data/SliderData';
-import { InfoData, InfoDataFour, InfoDataFive } from './data/InfoData';
-import { InfoSectionOne } from "./components/InfoSectionOne";
+import { InfoData, InfoDataTwo, InfoDataThree } from './data/InfoData';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,9 +23,8 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Hero slides={SliderData} />
       <InfoSection primary='true' {...InfoData} />
-
-      <InfoSectionOne primary='true' {...InfoDataFour} />
-      <InfoSection primary='true' {...InfoDataFive} />
+      <InfoSection button='true' background='true' padding='true' align='true' height='true' {...InfoDataTwo} />
+      <InfoSection primary='true' {...InfoDataThree} />
       <GlobalStyle />
     </>
   );
