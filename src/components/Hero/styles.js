@@ -5,7 +5,7 @@ import { IoArrowForward, IoArrowBack } from 'react-icons/io5';
 export const HeroSection = styled.section`
   height: 100vh;
   width: 100%;
-  max-height: 1100px;
+  max-height: 68.75rem; // 1100px
   position: relative;
   overflow: hidden;
 `;
@@ -64,7 +64,7 @@ export const HeroContent = styled.div`
   z-index: 10;
   display: flex;
   flex-direction: column;
-  max-width: 1600px;
+  max-width: 100rem; // 1600px
   width: calc(100% - 100px);
   color: var(--white);
 
@@ -93,22 +93,22 @@ export const arrowButtons = css`
   color: var(--white);
   cursor: pointer;
   background: #000d1a;
-  border-radius: 50px;
-  padding: 10px;
+  border-radius: 50%;
+  padding: 0.625rem; // 10px
   margin-right: 1rem;
   user-select: none;
   transform: 0.3s;
 
   &:hover{
-    background: #cd853f;
+    background: var(--orange);
     transform: scale(1.05);
   }
 `;
 
 export const SliderButtons = styled.div`
   position: absolute;
-  bottom: 50px;
-  right: 50px;
+  bottom: 3.125rem; // 50px
+  right: 3.125rem; // 50px
   display: flex;
   z-index: 10;
 `;

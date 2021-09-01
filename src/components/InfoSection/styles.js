@@ -11,7 +11,7 @@ export const Container = styled.div`
   padding: ${({ padding }) => ( padding ? '0' : '3rem calc((100vw - 1300px) / 2)' )};
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 800px;
+  grid-template-rows: 50rem; // 800px
   align-items: ${({ align }) => ( align ? 'center' : 'none' )};
 
   @media screen and (max-width: 768px){

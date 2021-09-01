@@ -7,7 +7,7 @@ export const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #cd853f;
+  background: var(--orange);
   display: grid;
   align-items: center;
   top: 0;
@@ -37,7 +37,7 @@ export const Icon = styled.div`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #000d1a;
+  color: var(--cinza800);
 `;
 
 export const DropdownWrapper = styled.div``;
@@ -45,12 +45,12 @@ export const DropdownWrapper = styled.div``;
 export const DropdownMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 80px);
+  grid-template-rows: repeat(4, 5rem); // 80px
   text-align: center;
   margin-bottom: 4rem;
 
   @media screen and (max-width: 480px){
-    grid-template-rows: repeat(4, 60px);
+    grid-template-rows: repeat(4, 3,75rem); // 60px
   }
 `;
 
@@ -63,7 +63,7 @@ export const DropdownLink = styled(Link)`
   transition: 0.2s ease-in-out;
 
   &:hover{
-    color: #000d1a;
+    color: var(--cinza800);
   }
 `;
 

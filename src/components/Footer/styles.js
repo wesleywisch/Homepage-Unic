@@ -4,9 +4,9 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 
 export const Container = styled.footer`
   border-radius: 100px 100px 0 0;
-  background-color: #000d1a;
+  background-color: var(--cinza800);
   width: 100%;
-  height: 540px;
+  height: 33.75rem; // 540px
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,14 +20,14 @@ export const Container = styled.footer`
   }
 
   @media screen and (max-width: 1000px) {
-    height: 800px;
+    height: 50rem; // 800px
     grid-template-columns: 1fr;
-    grid-template-rows: 420px;
+    grid-template-rows: 26.25rem; // 420px
   }
 
   @media screen and (max-width: 600px){
-    height: 600px;
-    grid-template-rows: 200px;
+    height: 37.5rem; // 600px
+    grid-template-rows: 12.5rem; // 200px
   }
 `;
 
@@ -63,7 +63,7 @@ export const iconsButton = css`
   height: 50px;
   color: #C87938;
   cursor: pointer;
-  background: #000d1a;
+  background: var(--cinza800);
   border-radius: 50px;
   padding: 10px;
   margin-right: 1rem;
@@ -71,7 +71,7 @@ export const iconsButton = css`
   transform: 0.3s;
 
   &:hover{
-    background: #fff;
+    background: var(--white);
     transform: scale(1.05);
   }
 `;
